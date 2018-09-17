@@ -1,4 +1,4 @@
 # eBuy
 Simple online shopping app, using a B2C (business to consumer) business model.
 
-![](ebuy.gif)
+![](ebuyonline.gif)
