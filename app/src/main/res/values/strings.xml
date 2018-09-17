@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">eBUY</string>
+    <string name="search_hint">Search</string>
+    <string name="hint_name">Nama</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_not_member">Belum punya akun?</string>
+    <string name="hint_confirm_password">Konfirmasi Password</string>
+    <string name="text_register">Daftar</string>
+    <string name="error_message_name">Masukkan Nama Lengkap</string>
+    <string name="error_message_email">Masukkan Email Valid</string>
+    <string name="error_message_age">Masukkan Umur</string>
+    <string name="error_message_password">Masukkan Password</string>
+    <string name="success_message">Pendaftaran Berhasil</string>
+    <string name="ordered_message">Pembelian Berhasil</string>
+    <string name="text_already_member">Sudah punya Akun?</string>
+    <string name="error_email_exists">Email sudah digunakan!</string>
+    <string name="error_password_match">Password tidak sama</string>
+    <string name="error_valid_email_password">Kesalahan Email atau Password</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="menu_store">Home</string>
+    <string name="menu_transaksi">Transaksi</string>
+    <string name="menu_daftar">Daftar</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nNullam porttitor enim sit amet magna pellentesque facilisis.\nSed felis turpis, vehicula at semper quis, laoreet sed neque. \nMorbi ultrices vel dolor in rutrum. Vivamus vel magna at diam \nbibendum commodo eget eu nisi. \n\nDonec viverra, \naugue rutrum malesuada congue, \nlacus dui luctus nulla, \nquis lobortis lectus neque id leo.</string>
+    <string name="short_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nNullam porttitor enim sit amet magna pellentesque facilisis.</string>
+    <string name="six_photos">6 Photos</string>
+    <string name="product_name">Flanel Sweater 100%</string>
+    <string name="product_price">159.000,-</string>
+    <string name="buy">Lanjutkan Pembayaran</string>
+    <string name="penjual">Penjual</string>
+    <string name="ebuy_shop">eBUY New Online Shop</string>
+    <string name="menu_logout">Keluar</string>
+    <string name="menu_about">Tentang Kami</string>
+
+</resources>

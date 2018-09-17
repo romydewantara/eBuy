@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackgroundMain">#f4f3f3</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#81C784</color>
+    <color name="colorMenu">#E0E0E0</color>
+    <color name="colorBlueSplash">#05d4c7</color>
+    <color name="colorDarkExit">#8eafaa</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorText">#000000</color>
+    <color name="colorTextHint">#51d8c7</color>
+    <color name="colorButtonBuy">#ff8100</color>
+</resources>

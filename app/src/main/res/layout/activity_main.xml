@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/colorBackgroundMain"
+    tools:context=".activity.MainActivity">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/dl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/abl_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:elevation="4dp"
+                android:minHeight="?attr/actionBarSize">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center|right">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:background="@color/colorPrimary"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="50dp"
+                                android:src="@drawable/ebuylogo"
+                                android:gravity="center" >
+                            </ImageView>
+
+                        </LinearLayout>
+                        <!--<LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:gravity="center|right">
+
+                            <EditText
+                                android:id="@+id/editMobileNo"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_margin="5dp"
+                                android:ems="10"
+                                android:hint="Search"
+                                android:drawableLeft="@drawable/search"
+                                android:gravity="center" >
+                            </EditText>
+
+                        </LinearLayout>-->
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.Toolbar>
+            </android.support.design.widget.AppBarLayout>
+
+            <LinearLayout
+                android:id="@+id/edittext_search"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/abl_main"
+                android:background="@color/colorPrimary">
+
+                <EditText
+                    android:id="@+id/editMobileNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:ems="10"
+                    android:hint="Search"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:drawableLeft="@drawable/ic_search"
+                    android:gravity="center" >
+                </EditText>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/fl_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/edittext_search"/>
+
+        </RelativeLayout>
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nv_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/navigation_header"
+            app:itemBackground="@drawable/bg_menu"
+            app:itemIconTint="@color/colorPrimaryDark"
+            app:itemTextColor="@color/colorPrimaryDark"
+            app:menu="@menu/menu" />
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

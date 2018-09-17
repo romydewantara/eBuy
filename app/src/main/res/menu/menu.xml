@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_store"
+        android:checkable="true"
+        android:icon="@drawable/store"
+        android:title="@string/menu_store" />
+
+    <item
+        android:id="@+id/menu_transaksi"
+        android:checkable="true"
+        android:icon="@drawable/transaction"
+        android:title="@string/menu_transaksi" />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:checkable="true"
+        android:icon="@drawable/signout"
+        android:title="@string/menu_logout"/>
+
+    <item
+        android:id="@+id/menu_about"
+        android:checkable="true"
+        android:icon="@drawable/about"
+        android:title="@string/menu_about"/>
+</menu>
